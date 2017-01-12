@@ -35,6 +35,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            applicationIdSuffix "debug"
+        }
     }
 }
 
@@ -45,6 +48,8 @@ To use our solution, uncomment the following line.
 */
 
 // apply from:"solution.gradle"
+
+
 
 
 dependencies {

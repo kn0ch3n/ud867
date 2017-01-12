@@ -13,6 +13,8 @@ task stringsAndTypes << {
 
 
     // TODO: Create a variable named foo and assign it the value 4.2
+    def foo = "bar"
+    println "$foo + foo = ${foo + "foo"}"
 
     // TODO: Print the value and class of foo
 

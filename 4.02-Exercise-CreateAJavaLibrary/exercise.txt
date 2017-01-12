@@ -13,9 +13,6 @@ module.
 
 4. Declare a project dependency between your app and JokeSmith
 
-5. Add a text view to MainActivityFragment and populate it with a joke from
-JokeSmith.
-
 6. Use the Android Studio wizard to add a second Java library called
 JokeWizard. To access the wizard, navigate to:
 
